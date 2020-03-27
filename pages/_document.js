@@ -32,14 +32,7 @@ export default class MyDocument extends Document {
           {this.props.styleTags}
         </Head>
         <body>
-          <GitHubForkRibbon
-            position="right"
-            color="green"
-            href="https://github.com/someshkar/covid19india-cluster"
-            target="_blank"
-          >
-            Fork me on GitHub
-          </GitHubForkRibbon>
+          
           <Main />
           <NextScript />
         </body>
